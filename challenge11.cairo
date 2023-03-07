@@ -50,4 +50,4 @@ func isComplete{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}
     alloc_locals;
     let (output)=is_complete.read();
     return (output=output);
-}
+} 
